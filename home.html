@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>text box validation<\title>
+<script>
+function validation form()
+{
+var name = document.getElementById("name").value;
+var age = document.getElementById("age").value;
+var address = document.getElementById("address").value;
+var email = document.getElementById("email").value;
+if(name ==" "){
+alert("name textbox is empty");
+return false;
+}
+if(age ==" "){
+alert("age textbox is empty");
+return false;
+}
+if(address ==" "){
+alert("address textbox is empty");
+return false;
+} 
+if(email ==" "){
+alert("email textbox is empty");
+return false;
+}
+alert("all textboxes are filles");
+return true;
+}
+
+
